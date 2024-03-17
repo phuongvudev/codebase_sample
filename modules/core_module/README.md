@@ -8,23 +8,23 @@ The Core Module serves as the foundation for building modular Flutter applicatio
 
 #### 1. Presentation Layer:
 
-    - Contains reusable UI components, widgets, and layouts that are commonly used across various features and modules.
-    - Provides abstractions for navigation, theming, and state management to promote consistency and streamline development.
+* Contains reusable UI components, widgets, and layouts that are commonly used across various features and modules.
+* Provides abstractions for navigation, theming, and state management to promote consistency and streamline development.
 
 #### 2. Domain Layer:
 
-    - Defines domain entities and value objects representing the business logic and data model of the application.
-    - Encapsulates domain-specific rules, validations, and operations to ensure data integrity and consistency.
+* Defines domain entities and value objects representing the business logic and data model of the application.
+* Encapsulates domain-specific rules, validations, and operations to ensure data integrity and consistency.
 
 #### 3. Application Layer:
 
-    - Houses core use cases and application services responsible for orchestrating business logic and interacting with external dependencies.
-    - Provides interfaces for application services, allowing for loose coupling and facilitating unit testing and dependency injection.
+* Houses core use cases and application services responsible for orchestrating business logic and interacting with external dependencies.
+* Provides interfaces for application services, allowing for loose coupling and facilitating unit testing and dependency injection.
 
 #### 4. Infrastructure Layer:
 
-    - Offers implementations for data sources, repositories, and external services required for data persistence, network communication, and third-party integrations.
-    - Handles platform-specific concerns and provides abstractions to decouple the application from underlying infrastructure details.
+* Offers implementations for data sources, repositories, and external services required for data persistence, network communication, and third-party integrations.
+* Handles platform-specific concerns and provides abstractions to decouple the application from underlying infrastructure details.
 
 ### Benefits:
 - Promotes modularity and separation of concerns by abstracting core functionalities into reusable components.
