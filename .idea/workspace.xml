@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4f95740-c223-4d49-9855-423f28a575db" name="Changes" comment="" />
+    <list default="true" id="a4f95740-c223-4d49-9855-423f28a575db" name="Changes" comment="Update core module">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/database/database_client.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/presentation/state_management/bloc/app_base_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/presentation/state_management/bloc/app_base_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/presentation/state_management/bloc/app_base_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/application/event_handlers/event_handler_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/application/event_handlers/event_handler_base.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/application/services/service_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/application/services/service_base.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/aggregates/aggregates_root.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/aggregates/aggregates_root.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/entities/entity_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/entities/entity_base.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/events/domain_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/events/domain_event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/mapper/mapper_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/mapper/mapper_interface.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/paginated.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/paginated.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/repository_port.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/repository_port.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/value_objects/value_object_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/value_objects/value_object_base.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_base.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_code.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exceptions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exceptions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/helpers/ids.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/helpers/ids.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/http/http_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/http/http_client.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/i_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/i_client.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/logger/logger_port.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/logger/logger_port.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core_module/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,17 +41,90 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/Data/source_projects/flutter/codebase_sample/modules/core_module/lib/src/infrastructure/clients/http",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35402298",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "com.yahorbarkouski.okdoc.plugin.settings.OkDocConfigurable",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/http" />
+      <recent name="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/core_module/lib/src/presentation/state_management/bloc" />
+      <recent name="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients" />
+      <recent name="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/\\" />
+      <recent name="$PROJECT_DIR$/modules/core_module/lib/src/application/event_handler" />
+    </key>
+  </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Update README">
+      <option name="closed" value="true" />
+      <created>1710663355566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663355566</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README">
+      <option name="closed" value="true" />
+      <created>1710663722106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710663722106</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update localize">
+      <option name="closed" value="true" />
+      <created>1710664396369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710664396369</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update core module">
+      <option name="closed" value="true" />
+      <created>1710674944646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710674944646</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update core module">
+      <option name="closed" value="true" />
+      <created>1710689076675</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710689076675</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update README" />
+    <MESSAGE value="update localize" />
+    <MESSAGE value="Update core module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update core module" />
   </component>
 </project>
