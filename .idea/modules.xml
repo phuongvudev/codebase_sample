@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/app/app.app.iml" filepath="$PROJECT_DIR$/apps/app/app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/second_app/app.second_app.iml" filepath="$PROJECT_DIR$/apps/second_app/app.second_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/core_module/moudles.core_module.iml" filepath="$PROJECT_DIR$/modules/core_module/moudles.core_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/localization_module/moudles.localization_module.iml" filepath="$PROJECT_DIR$/modules/localization_module/moudles.localization_module.iml" />
+    </modules>
+  </component>
+</project>
