@@ -1,7 +1,11 @@
-interface class IClient {
-  void initialize() => throw UnimplementedError();
+/// Interface representing a client.
+abstract class IClient {
+  /// Initializes the client.
+  void initialize();
 
-  void dispose() => throw UnimplementedError();
+  /// Disposes the client.
+  void dispose();
 
-  void close() => throw UnimplementedError();
+  /// Closes the client.
+  void close();
 }

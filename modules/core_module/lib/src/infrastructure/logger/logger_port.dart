@@ -1,9 +1,14 @@
+/// Abstract class representing a logger port.
 abstract class LoggerPort {
-  void log(String message, [StackTrace trace]);
+  /// Logs a message.
+  void log(String message, [StackTrace? trace]);
 
-  void error(String message, [StackTrace trace]);
+  /// Logs an error message.
+  void error(String message, [StackTrace? trace]);
 
-  void warn(String message, [StackTrace trace]);
+  /// Logs a warning message.
+  void warn(String message, [StackTrace? trace]);
 
-  void debug(String message, [StackTrace trace]);
+  /// Logs a debug message.
+  void debug(String message, [StackTrace? trace]);
 }

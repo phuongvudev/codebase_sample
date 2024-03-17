@@ -16,16 +16,23 @@ import "dart:math";
 ///
 ///  See @https://unkey.dev/blog/uuid-ux
 ///
-final class IDHelpers {
+
+/// Helper class for generating custom IDs.
+class IDHelpers {
+  /// The string containing the custom alphabet used for generating IDs.
   static const customAlphabetString =
       "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 
+  /// The default length for prefix IDs.
   static const defaultPrefixIdLength = 22;
 
+  /// The length for entity IDs.
   static const entityIdLength = 25;
 
+  /// Random number generator.
   static final _random = Random.secure();
 
+  /// Generates a random ID using a custom alphabet.
   static String _customAlphabet(String alphabet, int size) {
     final len = alphabet.length;
     String id = '';
@@ -35,16 +42,21 @@ final class IDHelpers {
     return id;
   }
 
+  /// Generates a random ID with the specified [size].
   static String _generateId(int size) {
     return _customAlphabet(customAlphabetString, size);
   }
 
-  static String generatePrefixId(
-      {String prefix = "tu", length = defaultPrefixIdLength}) {
+  /// Generates a prefix ID with the specified [prefix] and [length].
+  static String generatePrefixId({
+    String prefix = "tu",
+    int length = defaultPrefixIdLength,
+  }) {
     return '${prefix}_${_generateId(length)}';
   }
 
-  static String generateUserId({length = defaultPrefixIdLength}) {
+  /// Generates a user ID with the specified [length].
+  static String generateUserId({int length = defaultPrefixIdLength}) {
     return generatePrefixId(prefix: "u", length: length);
   }
 }

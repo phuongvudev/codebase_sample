@@ -1,4 +1,6 @@
-abstract class ValueObjectBase<T> {
+import 'package:equatable/equatable.dart';
+
+abstract class ValueObjectBase<T extends Equatable> {
   final T value;
 
   const ValueObjectBase(this.value);

@@ -1,9 +1,32 @@
-abstract class EntityBase<EntityProps> {
+import 'package:core_module/src/exceptions/exceptions.dart';
+import 'package:equatable/equatable.dart';
+
+const maxProps = 50;
+
+abstract class EntityBase<EntityProps extends Equatable> {
   final String id;
 
   final EntityProps props;
 
-  const EntityBase(this.id, this.props);
+  late DateTime createdAt;
+
+  late DateTime updatedAt;
+
+  EntityBase({required this.id, required this.props})
+      : assert(
+            props.props.isEmpty,
+            ArgumentNotProvidedException(
+              message: 'Entity props should not be empty',
+            )),
+        assert(
+            props.props.length > maxProps,
+            ArgumentOutOfRangeException(
+              message:
+                  'Entity props should not have more than $maxProps properties',
+            )) {
+    createdAt = DateTime.now();
+    updatedAt = DateTime.now();
+  }
 
   @override
   bool operator ==(Object other) =>
@@ -12,27 +35,4 @@ abstract class EntityBase<EntityProps> {
 
   @override
   int get hashCode => id.hashCode;
-}
-
-abstract class EntityPropsBase {
-  final String id;
-  final DateTime createdAt;
-  final DateTime updatedAt;
-
-  EntityPropsBase({
-    required this.id,
-    required this.createdAt,
-    required this.updatedAt,
-  });
-}
-
-abstract class CreateEntityPropsBase<T> extends EntityPropsBase {
-  final T data;
-
-  CreateEntityPropsBase({
-    required this.data,
-    required super.id,
-    required super.createdAt,
-    required super.updatedAt,
-  });
 }

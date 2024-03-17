@@ -6,7 +6,7 @@ import "package:core_module/src/exceptions/exception_code.dart";
 /// @class ArgumentNotProvidedException
 /// @extends {ExceptionBase}
 class ArgumentNotProvidedException extends ExceptionBase {
-  ArgumentNotProvidedException({super.code = argumentNotProvided});
+  ArgumentNotProvidedException({super.code = argumentNotProvided, super.message});
 }
 
 /// Used to indicate that an incorrect argument was provided to a method/function/class constructor
@@ -14,7 +14,7 @@ class ArgumentNotProvidedException extends ExceptionBase {
 /// @class ArgumentInvalidException
 /// @extends {ExceptionBase}
 class ArgumentInvalidException extends ExceptionBase {
-  ArgumentInvalidException({super.code = argumentInvalid});
+  ArgumentInvalidException({super.code = argumentInvalid, super.message});
 }
 
 /// Used to indicate that an argument is out of allowed range
@@ -23,7 +23,7 @@ class ArgumentInvalidException extends ExceptionBase {
 /// @class ArgumentOutOfRangeException
 /// @extends {ExceptionBase}
 class ArgumentOutOfRangeException extends ExceptionBase {
-  ArgumentOutOfRangeException({super.code = argumentOutOfRange});
+  ArgumentOutOfRangeException({super.code = argumentOutOfRange, super.message});
 }
 
 /// Used to indicate conflicting entities (usually in the database)
@@ -31,7 +31,7 @@ class ArgumentOutOfRangeException extends ExceptionBase {
 /// @class ConflictException
 /// @extends {ExceptionBase}
 class ConflictException extends ExceptionBase {
-  ConflictException({super.code = conflict});
+  ConflictException({super.code = conflict, super.message});
 }
 
 /// Used to indicate that entity is not found
