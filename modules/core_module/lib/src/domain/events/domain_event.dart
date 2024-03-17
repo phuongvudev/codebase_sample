@@ -1,4 +1,3 @@
-import 'package:core_module/src/domain/entities/unique_entity_id.dart';
 import 'package:core_module/src/helpers/ids.dart';
 
 final class DomainEventMetadata {
@@ -35,14 +34,14 @@ final class DomainEventMetadata {
 }
 
 abstract class DomainEventBase {
-  late final UniqueEntityID id;
+  late final String id;
 
-  final UniqueEntityID aggregateId;
+  final String aggregateId;
 
   final DomainEventMetadata metadata;
 
   DomainEventBase(
-      {UniqueEntityID? id, required this.aggregateId, required this.metadata}) {
-    this.id = id ?? UniqueEntityID(IDHelpers.generatePrefixId(prefix: "de"));
+      {String? id, required this.aggregateId, required this.metadata}) {
+    this.id = id ?? IDHelpers.generatePrefixId(prefix: "de");
   }
 }
