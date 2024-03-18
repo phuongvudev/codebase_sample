@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apps/app/app.app.iml" filepath="$PROJECT_DIR$/apps/app/app.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apps/second_app/app.second_app.iml" filepath="$PROJECT_DIR$/apps/second_app/app.second_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/app/app.iml" filepath="$PROJECT_DIR$/apps/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/core_module/moudles.core_module.iml" filepath="$PROJECT_DIR$/modules/core_module/moudles.core_module.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/localization_module/moudles.localization_module.iml" filepath="$PROJECT_DIR$/modules/localization_module/moudles.localization_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/anz_app/parts.anz_app.iml" filepath="$PROJECT_DIR$/apps/anz_app/parts.anz_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/jp_app/parts.jp_app.iml" filepath="$PROJECT_DIR$/apps/jp_app/parts.jp_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/my_app/parts.my_app.iml" filepath="$PROJECT_DIR$/apps/my_app/parts.my_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/sg_app/parts.sg_app.iml" filepath="$PROJECT_DIR$/apps/sg_app/parts.sg_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/tw_app/parts.tw_app.iml" filepath="$PROJECT_DIR$/apps/tw_app/parts.tw_app.iml" />
     </modules>
   </component>
 </project>

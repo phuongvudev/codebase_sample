@@ -4,34 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4f95740-c223-4d49-9855-423f28a575db" name="Changes" comment="Update core module">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/database/database_client.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/presentation/state_management/bloc/app_base_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/presentation/state_management/bloc/app_base_event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/core_module/lib/src/presentation/state_management/bloc/app_base_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+    <list default="true" id="a4f95740-c223-4d49-9855-423f28a575db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/application/event_handlers/event_handler_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/application/event_handlers/event_handler_base.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/application/services/service_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/application/services/service_base.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/aggregates/aggregates_root.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/aggregates/aggregates_root.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/entities/entity_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/entities/entity_base.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/events/domain_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/events/domain_event.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/mapper/mapper_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/mapper/mapper_interface.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/paginated.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/paginated.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/repository_port.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/repositories/repository_port.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/domain/value_objects/value_object_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/domain/value_objects/value_object_base.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_base.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_code.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exception_code.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exceptions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/exceptions/exceptions.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/helpers/ids.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/helpers/ids.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/http/http_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/http/http_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/i_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/clients/i_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/logger/logger_port.dart" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/lib/src/infrastructure/logger/logger_port.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core_module/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core_module/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/kotlin/com/example/second_app/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/ios/RunnerTests/RunnerTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/second_app/test/widget_test.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +100,7 @@
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Volumes/Data/source_projects/flutter/codebase_sample/modules/core_module/lib/src/infrastructure/clients/http",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
+    "project.structure.proportion": "0.14925373",
     "project.structure.side.proportion": "0.35402298",
     "settings.editor.selected.configurable": "com.yahorbarkouski.okdoc.plugin.settings.OkDocConfigurable",
     "show.migrate.to.gradle.popup": "false"
@@ -118,13 +159,30 @@
       <option name="project" value="LOCAL" />
       <updated>1710689076675</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update core module">
+      <option name="closed" value="true" />
+      <created>1710693855532</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710693855532</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update projects">
+      <option name="closed" value="true" />
+      <created>1710693934242</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710693934242</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update README" />
     <MESSAGE value="update localize" />
     <MESSAGE value="Update core module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update core module" />
+    <MESSAGE value="Update projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update projects" />
   </component>
 </project>
