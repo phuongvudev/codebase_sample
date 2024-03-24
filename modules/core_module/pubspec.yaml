@@ -26,6 +26,9 @@ dependencies:
   equatable:
   dio:
   flutter_bloc:
+  injectable:
+  get_it:
+  collection:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -35,6 +38,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  build_runner:
+  injectable_generator:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -61,7 +66,7 @@ flutter:
   # section here, in this "flutter" section. Each entry in this list should
   # have a "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
-  # example:
+  # user_module:
   # fonts:
   #   - family: Schyler
   #     fonts:
@@ -86,5 +91,5 @@ flutter:
   # identifiers, which may be completely independent or the same as these.
   module:
     androidX: true
-    androidPackage: com.example.core_module
-    iosBundleIdentifier: com.example.coreModule
+    androidPackage: com.user_module.core_module
+    iosBundleIdentifier: com.user_module.coreModule

@@ -1,3 +1,4 @@
+
 import 'package:core_module/src/infrastructure/clients/i_client.dart';
 import 'package:core_module/src/infrastructure/logger/logger_port.dart';
 
@@ -14,7 +15,7 @@ abstract class DatabaseClient implements IClient {
     // Implementation specific to connecting to the database
     loggerPort.debug('Connecting to the database...');
     // Simulating connection delay
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 2));
     loggerPort.debug('Connected to the database');
   }
 
@@ -24,7 +25,7 @@ abstract class DatabaseClient implements IClient {
     // Implementation specific to disconnecting from the database
     loggerPort.debug('Disconnecting from the database...');
     // Simulating disconnection delay
-    await Future.delayed(Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 1));
     loggerPort.debug('Disconnected from the database');
   }
 
@@ -33,7 +34,7 @@ abstract class DatabaseClient implements IClient {
     // Implementation specific to executing a database query
     loggerPort.debug('Executing query: $query');
     // Simulating query execution delay
-    await Future.delayed(Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 1));
     loggerPort.debug('Query executed successfully');
   }
 }

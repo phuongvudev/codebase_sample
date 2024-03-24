@@ -1,5 +1,6 @@
-import "package:core_module/src/exceptions/exception_base.dart";
-import "package:core_module/src/exceptions/exception_code.dart";
+
+import 'package:core_module/src/exceptions/exception_base.dart';
+import 'package:core_module/src/exceptions/exception_code.dart';
 
 /// Used to indicate that an argument was not provided (is empty object/array, null of undefined).
 ///
